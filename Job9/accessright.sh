@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Chemin vers le fichier CSV contenant les informations des utilisateurs
-CSV_FILE="/chemin/vers/votre/fichier.csv"
+CSV_FILE="~/LaPlateforme/Shell_Userlist.csv"
 
 # Chemin vers le fichier qui stocke la somme de contrôle (checksum) du fichier CSV
-CHECKSUM_FILE="/chemin/vers/le/fichier_checksum.txt"
+CHECKSUM_FILE="/LaPlateforme/shell-exe/Job9/fichier_checksum.txt"
 
 # Fonction pour créer un utilisateur avec des privilèges d'administrateur (super utilisateur)
 create_admin_user() {
